@@ -1,0 +1,19 @@
+    git init : Initialise un nouveau dépôt Git. Utilisez cette commande dans le répertoire racine de votre projet pour commencer à suivre les fichiers avec Git.
+
+    git clone [url] : Clone un dépôt Git existant à partir d'une URL donnée. Utilisez cette commande pour copier un projet Git sur votre machine locale.
+
+    git add [fichier] : Ajoute un fichier spécifique à la zone de préparation. Utilisez git add . pour ajouter tous les fichiers modifiés.
+
+    git commit -m "[message de commit]" : Enregistre les changements dans le dépôt avec un message de commit expliquant ce qui a été modifié.
+
+    git status : Montre l'état des fichiers dans votre répertoire de travail et la zone de préparation, indiquant les fichiers modifiés, ajoutés, ou prêts à être commit.
+
+    git branch [nom de branche] : Crée une nouvelle branche. Les branches permettent de développer des fonctionnalités isolément du reste du code.
+
+    git checkout [nom de branche] : Permet de changer de branche pour travailler sur une branche différente.
+
+    git merge [nom de branche] : Fusionne les changements d'une branche spécifiée dans la branche courante.
+
+    git pull [source] : Récupère les changements depuis un dépôt distant et les fusionne dans la branche courante.
+
+    git push [destination] : Envoie les changements de votre dépôt local vers un dépôt distant.
